@@ -35,7 +35,7 @@ public void show(View parent, int gravity, float bubbleOffset) {
 ```
 - 自定义弹窗
 使用气泡布局
-```xml
+```.xml
 <?xml version="1.0" encoding="utf-8"?>
 <com.kebiiii.bubblepopup.BubbleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
