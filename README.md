@@ -7,7 +7,7 @@ Android 实现各个方向的气泡弹窗，可控制气泡尖角偏移量。
 ### 依赖
 ```
 dependencies {
-    compile 'com.kebiiii.bubble:library:1.0.0'
+    compile 'com.github.kebiiii:BubblePopupWindow:1.0.0'
 }
 ```
 
@@ -37,7 +37,7 @@ public void show(View parent, int gravity, float bubbleOffset) {
 使用气泡布局
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<com.yuyh.library.BubbleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.kebiiii.bubblepopup.BubbleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/brlBackground"
     android:layout_width="wrap_content"
@@ -51,6 +51,6 @@ public void show(View parent, int gravity, float bubbleOffset) {
     
     <!-- add view  -->
 
-</com.yuyh.library.BubbleRelativeLayout>
+</com.kebiiii.bubblepopup.BubbleRelativeLayout>
 ```
 然后通过PopupWindow显示气泡弹窗，当然，也可直接显示气泡布局。
